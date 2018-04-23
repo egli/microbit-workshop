@@ -1,0 +1,71 @@
+#+OPTIONS: num:nil toc:2
+#+TITLE: BBC micro:bit - einfach und hands-on
+#+AUTHOR: Christian Egli
+#+EMAIL: christian@egli.cc
+#+LANGUAGE: en
+#+CREATOR: Emacs 25.2.2 (Org mode 9.1.8)
+
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_THEME: solarized
+#+REVEAL_TRANS: slide
+
+* Warum
+  - Lieber im Wald
+  - But games are here
+  - Zeigen was dahinter steckt
+* Now what?
+  - We want something physical
+  - Simple
+  - Engaging
+* Scratch
+  - Lego-like programming
+  - Perfect for making simple games
+  - No connection to the real world
+* Arduino
+  - Fairly simple
+  - Made for artists
+  - Simple for simple things
+  - Program in C
+* What if we could combine the two?
+  - Ease of programming
+  - Real world interaction
+* micro:bit
+  - Programming very similar to Scratch
+  - Interact with the world
+    - Sensors
+    - LED, Motors
+** Meet the micro:bit
+*** Features
+** Coding environment
+*** Download
+*** Code editor
+*** Simulator
+** Transfer code
+* Similar efforts
+** [[https://calliope.cc/][Calliope]]
+- Deutsche Version des micro:bit
+- auch auf Schulen ausgerichtet
+- weniger bekannt und weniger Community support
+** [[https://www.dexterindustries.com/gopigo3/][GoPiGo]]
+- Robotics
+- Based on Blockly (Scratch-like)
+** [[https://chibitronics.com/][Chibitronics]]
+- programming with arts and crafts
+- tools for paper circuits
+* Where to get it
+- http://microbit.org/resellers/
+  - https://educatec.ch
+  - https://www.bischoff-ag.ch
+- https://www.maker-shop.ch
+- https://www.digitec.ch
+* Calliope vs micro:bit
+  - Calliope has more Accentuators
+    - Speakers
+    - Motors without an extra board
+  - In German
+  - Less material (?)
+  - 50.- vs 20.-
+* Workshop
+* Würfel
+* Lawinensuchgerät
+- https://makecode.microbit.org/projects/hot-or-cold
