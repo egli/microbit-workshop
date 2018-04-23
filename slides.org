@@ -35,6 +35,10 @@
     - Sensors
     - LED, Motors
 ** Meet the micro:bit
+*** Front
+[[./images/microbit-front.png]]
+*** Back
+[[./images/microbit-back.png]]
 *** Features
 ** Coding environment
 *** Download
