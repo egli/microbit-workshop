@@ -1,4 +1,4 @@
-#+OPTIONS: num:nil toc:2
+#+OPTIONS: num:nil toc:1
 #+TITLE: BBC micro:bit - einfach und hands-on
 #+AUTHOR: Christian Egli
 #+EMAIL: christian@egli.cc
