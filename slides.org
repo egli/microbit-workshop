@@ -70,6 +70,13 @@
   - Less material (?)
   - 50.- vs 20.-
 * Workshop
-* Würfel
-* Lawinensuchgerät
-- https://makecode.microbit.org/projects/hot-or-cold
+** Hello World
+   - http://microbit.org/guide/quick/
+   - http://microbit.org/ideas/
+** Rock Paper Scissors
+   - http://microbit.org/en/2017-03-07-rock-paper-scissors/
+   - https://makecode.microbit.org/projects/rock-paper-scissors
+** Glühwürmchen
+   - https://makecode.microbit.org/projects/fireflies
+** Lawinensuchgerät
+   - https://makecode.microbit.org/projects/hot-or-cold
