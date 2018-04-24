@@ -39,7 +39,18 @@
 [[./images/microbit-front.png]]
 *** Back
 [[./images/microbit-back.png]]
-*** Features
+*** Interact with the world
+
+# http://microbit.org/guide/features/
+
+- 25 individually-programmable LEDs
+- 2 programmable buttons
+- Physical connection pins
+- Light and temperature sensors
+- Motion sensors (accelerometer and compass)
+- Wireless Communication, via Radio and Bluetooth
+- USB interface
+
 ** Coding environment
 *** Download
 *** Code editor
