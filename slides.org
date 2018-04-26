@@ -27,6 +27,7 @@
 ** Scratch
    - Lego-like programming
    - http://scratch.mit.edu
+     - designed for education
      - Teaching resources
 *** Verdict
     - Perfect for making simple games
