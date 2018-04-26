@@ -1,0 +1,9 @@
+* Micro:bit Workshop
+
+This repo contains material for the [[http://microbit.org/][micro:bit]] workshop that was given
+at the [[https://openeducationday.ch/][Open Education Day 2018]]
+
+* License
+
+You can use this material under the [[http://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
+
