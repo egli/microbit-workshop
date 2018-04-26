@@ -23,7 +23,7 @@
    - Perfect for making simple games
    - No interaction with the real world
 ** Arduino
-   [[file:images/arduino-2713093_1920.jpg][file:~/src/microbit_workshop/images/arduino-2713093_1920.jpg]]
+   [[./images/arduino-2713093_1920.jpg]]
 ** Arduino
    - Made for artists
    - Fairly simple
