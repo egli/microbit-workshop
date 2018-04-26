@@ -109,15 +109,17 @@
 
 * Similar efforts
 ** [[https://calliope.cc/][Calliope]]
-- Deutsche Version des micro:bit
-- auch auf Schulen ausgerichtet
-- weniger bekannt und weniger Community support
+   [[https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Calliope_mini_weiss_JoernAlraun.jpg/512px-Calliope_mini_weiss_JoernAlraun.jpg]]
+*** [[https://calliope.cc/][Calliope]]
+    - German version of the micro:bit
+    - aimed at schools
+    - not as well known
 *** Calliope vs micro:bit
     - Calliope has more Accentuators
       - Speakers
       - Motors without an extra board
     - In German
-    - Less material (?)
+    - fewer resources (?)
     - 50.- vs 20.-
 ** [[https://chibitronics.com/][Chibitronics]]
 - programming with arts and crafts
