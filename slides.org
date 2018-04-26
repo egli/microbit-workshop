@@ -42,10 +42,9 @@
     - Sensors
     - LED, Motors
 ** Front
-[[./images/microbit-front.png]]
+   [[https://microbit.org/images/microbit-front.png]]
 ** Back
-[[./images/microbit-back.png]]
-** Interact with the world
+   [[https://microbit.org/images/microbit-back.png]]
 
 # http://microbit.org/guide/features/
 
