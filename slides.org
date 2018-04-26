@@ -77,6 +77,7 @@
 ** Back
    [[https://microbit.org/images/microbit-back.png]]
 
+** Interact with the world
 # http://microbit.org/guide/features/
 
 - LEDs
@@ -90,22 +91,22 @@
 - Physical connection pins
 - USB interface
 
-** Let's Code
-- [[https://makecode.microbit.org/][In-Browser Editor]]
-- Simulator
-- Download
-- [[http://microbit.org/guide/quick/][Quick Start Guide]]
-* Resources
-- [[https://makecode.microbit.org/lessons][Lesson plans]]
-- [[https://makecode.microbit.org/projects][Projects]]
-* Where to get it
-- http://microbit.org/resellers/
-  - https://educatec.ch
-  - https://www.bischoff-ag.ch
-- https://www.maker-shop.ch
-- https://www.digitec.ch
 ** Coding
    [[./images/microbit-makecode.png]]
+** Coding
+   - [[https://makecode.microbit.org/][In-Browser Editor]]
+   - Simulator
+   - Download
+   - [[http://microbit.org/guide/quick/][Quick Start Guide]]
+** Resources
+   - [[https://makecode.microbit.org/lessons][Lesson plans]]
+   - [[https://makecode.microbit.org/projects][Projects]]
+** Where to get it
+   - http://microbit.org/resellers/
+     - https://educatec.ch
+     - https://www.bischoff-ag.ch
+   - https://www.maker-shop.ch
+   - https://www.digitec.ch
 
 * Similar efforts
 ** [[https://calliope.cc/][Calliope]]
