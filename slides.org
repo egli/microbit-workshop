@@ -122,8 +122,10 @@
     - fewer resources (?)
     - 50.- vs 20.-
 ** [[https://chibitronics.com/][Chibitronics]]
-- programming with arts and crafts
-- tools for paper circuits
+   [[https://farm6.staticflickr.com/5321/13932630538_45a043e0c8_z.jpg]]
+** [[https://chibitronics.com/][Chibitronics]]
+   - programming with arts and crafts
+   - tools for paper circuits
 ** [[https://www.dexterindustries.com/gopigo3/][GoPiGo]]
 - Robotics
 - Based on Blockly (Scratch-like)
