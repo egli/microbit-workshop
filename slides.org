@@ -11,14 +11,16 @@
 #+REVEAL_TRANS: slide
 #+REVEAL_PLUGINS: (highlight)
 
-* Motivation
-  - Lieber im Wald
-  - But games are here
-  - Zeigen was dahinter steckt
-* What
-  - simple
-  - engaging
-  - physical
+* Background
+** Motivation
+   - Rather they play in the forest
+   - Games are here
+   - Show what is behind them
+** Requirements
+   - simple
+   - engaging
+   - physical
+
 * Landscape
 ** Scratch
    [[./images/scratch.png]]
