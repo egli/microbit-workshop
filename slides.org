@@ -23,10 +23,13 @@
 ** Scratch
    [[./images/scratch.png]]
 ** Scratch
-   - http://scratch.mit.edu
    - Lego-like programming
-   - Perfect for making simple games
-   - No interaction with the real world
+   - http://scratch.mit.edu
+     - Teaching resources
+*** Verdict
+    - Perfect for making simple games
+    - No interaction with the real world
+
 ** Arduino
    [[./images/arduino-2713093_1920.jpg]]
 *** Arduino
