@@ -25,10 +25,13 @@
 ** Arduino
    [[./images/arduino-2713093_1920.jpg]]
 ** Arduino
-   - Made for artists
-   - Fairly simple
+   - https://www.arduino.cc/
+   - open-source electronics platform
+   - aimed at students
+     - without a background in electronics and programming
+   - fairly simple
      - for simple things
-   - Program in C
+   - program in C
 ** What if we could combine the two?
    - Ease of programming
    - Physical real world interaction
