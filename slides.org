@@ -19,6 +19,9 @@
   - simple
   - engaging
   - physical
+* Landscape
+** Scratch
+   [[./images/scratch.png]]
 ** Scratch
    - http://scratch.mit.edu
    - Lego-like programming
@@ -98,6 +101,8 @@
   - https://www.bischoff-ag.ch
 - https://www.maker-shop.ch
 - https://www.digitec.ch
+** Coding
+   [[./images/microbit-makecode.png]]
 
 * Similar efforts
 ** [[https://calliope.cc/][Calliope]]
