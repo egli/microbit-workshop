@@ -5,5 +5,5 @@ at the [[https://openeducationday.ch/][Open Education Day 2018]]
 
 * License
 
-You can use this material under the [[http://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
+Feel free to use this material under the [[http://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
 
