@@ -130,8 +130,11 @@
    - programming with arts and crafts
    - tools for paper circuits
 ** [[https://www.dexterindustries.com/gopigo3/][GoPiGo]]
-- Robotics
-- Based on Blockly (Scratch-like)
+   #+ATTR_HTML: :width 500
+   [[https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/GPG3_Full_1.jpg]]
+*** [[https://www.dexterindustries.com/gopigo3/][GoPiGo]]
+ - Robotics kit from [[https://www.dexterindustries.com/][Dexter Industries]]
+ - Based on [[https://blockly-games.appspot.com/][Blockly]] (Scratch-like)
 * Workshop
 ** Hello World
    - http://microbit.org/guide/quick/
