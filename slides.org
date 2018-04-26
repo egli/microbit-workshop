@@ -7,7 +7,7 @@
 #+CREATOR: Emacs 25.2.2 (Org mode 9.1.8)
 
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
-#+REVEAL_THEME: solarized
+#+REVEAL_THEME: white
 #+REVEAL_TRANS: slide
 #+REVEAL_PLUGINS: (highlight)
 
