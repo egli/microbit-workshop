@@ -12,7 +12,7 @@
 
 * Background
 ** Motivation
-   - Rather they play in the forest
+   - Better to play in the forest
    - Games are here
    - Show what is behind them
 ** Requirements
@@ -23,11 +23,11 @@
 * Landscape
 ** Scratch
    [[./images/scratch.png]]
-** Scratch
-   - http://scratch.mit.edu
-   - Lego-like programming
-   - designed for education
-   - Teaching resources
+*** Scratch
+    - http://scratch.mit.edu
+    - Lego-like programming
+    - designed for education
+    - Teaching resources
 *** Verdict
     - Perfect for making simple games
     - No interaction with the real world
@@ -41,7 +41,7 @@
       - with no background in electronics and programming
     - fairly simple
       - for simple things
-    - program in C
+    - program in C++
 *** Arduino Coding
  #+BEGIN_SRC CC
  // Pin 13 has an LED connected on most Arduino boards.
@@ -99,10 +99,10 @@
    - [[https://makecode.microbit.org/][In-Browser Editor]]
    - Simulator
    - Download
-   - [[http://microbit.org/guide/quick/][Quick Start Guide]]
 ** Resources
    - [[https://makecode.microbit.org/lessons][Lesson plans]]
    - [[https://makecode.microbit.org/projects][Projects]]
+   - [[http://microbit.org/guide/quick/][Quick Start Guide]]
 ** Where to get it
    - http://microbit.org/resellers/
      - https://educatec.ch
@@ -126,9 +126,9 @@
     - 50.- vs 20.-
 ** [[https://chibitronics.com/][Chibitronics]]
    [[https://farm6.staticflickr.com/5321/13932630538_45a043e0c8_z.jpg]]
-** [[https://chibitronics.com/][Chibitronics]]
-   - programming with arts and crafts
-   - tools for paper circuits
+*** [[https://chibitronics.com/][Chibitronics]]
+    - programming with arts and crafts
+    - tools for paper circuits
 ** [[https://www.dexterindustries.com/gopigo3/][GoPiGo]]
    #+ATTR_HTML: :width 500
    [[https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/GPG3_Full_1.jpg]]
