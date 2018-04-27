@@ -1,10 +1,9 @@
 #+OPTIONS: num:nil toc:1 timestamp:nil date:nil
-#+DATE: <2018-04-26 Thu>
+#+DATE: <2018-04-27 Fri>
 #+TITLE: BBC micro:bit - einfach und hands-on
 #+AUTHOR: Christian Egli
 #+EMAIL: christian@egli.cc
 #+LANGUAGE: en
-#+CREATOR: Emacs 25.2.2 (Org mode 9.1.8)
 
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+REVEAL_THEME: white
@@ -136,14 +135,75 @@
 *** [[https://www.dexterindustries.com/gopigo3/][GoPiGo]]
  - Robotics kit from [[https://www.dexterindustries.com/][Dexter Industries]]
  - Based on [[https://blockly-games.appspot.com/][Blockly]] (Scratch-like)
+ - [[https://www.sparkfun.com/products/14216][SparkFun micro:bot kit]]
 * Workshop
+  :PROPERTIES:
+  :COLUMNS:  %ITEM %Time{:}
+  :END:
+#+BEGIN: columnview :hlines 1 :id local :indent t
+| ITEM                      | Time |
+|---------------------------+------|
+| Workshop                  | 2:35 |
+| \_  Hello World           | 0:15 |
+| \_  Rock Paper Scissors   | 0:30 |
+| \_  Stop watch            | 0:30 |
+| \_  Avalanche transceiver | 0:30 |
+| \_  Banana keyboard       | 0:20 |
+| \_  Fireflies             | 0:30 |
+#+END:
+
 ** Hello World
+   :PROPERTIES:
+   :TIME:     0:15
+   :END:
+   - Warm-up exercise
+     - use editor
+     - download
+   - 15 mins
    - http://microbit.org/guide/quick/
    - http://microbit.org/ideas/
 ** Rock Paper Scissors
+   :PROPERTIES:
+   :TIME:     0:30
+   :END:
+   - Basic game
+     - variable, random, if then else
+   - 30 mins
    - http://microbit.org/en/2017-03-07-rock-paper-scissors/
    - https://makecode.microbit.org/projects/rock-paper-scissors
-** Glühwürmchen
-   - https://makecode.microbit.org/projects/fireflies
-** Lawinensuchgerät
+** Stop watch
+   :PROPERTIES:
+   :TIME:     0:30
+   :END:
+   - Basic stop watch with random animations
+     - variable, random, if then else, time, strings
+   - 30 mins
+   - https://makecode.microbit.org/examples/stop-watch
+** Avalanche transceiver
+   :PROPERTIES:
+   :TIME:     0:30
+   :END:
+   - Communicate between micro:bits
+     - radio transmission
+     - work in teams
+   - 30 mins
    - https://makecode.microbit.org/projects/hot-or-cold
+** Banana keyboard
+   :PROPERTIES:
+   :TIME:     0:20
+   :END:
+   - Basic input and sound
+     - read input pins, generate sound
+   - Material
+     - cables, crocodile clips, fruit, speaker
+   - 20 mins
+   - https://makecode.microbit.org/projects/banana-keyboard
+** Fireflies
+   :PROPERTIES:
+   :TIME:     0:30
+   :END:
+   - Communicate between micro:bits
+     - swarm behavior
+     - advanced concept
+   - 30 mins
+   - https://makecode.microbit.org/projects/fireflies
