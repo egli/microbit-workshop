@@ -25,10 +25,10 @@
 ** Scratch
    [[./images/scratch.png]]
 ** Scratch
-   - Lego-like programming
    - http://scratch.mit.edu
-     - designed for education
-     - Teaching resources
+   - Lego-like programming
+   - designed for education
+   - Teaching resources
 *** Verdict
     - Perfect for making simple games
     - No interaction with the real world
