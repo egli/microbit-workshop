@@ -74,6 +74,13 @@
   - Interact with the world
     - Sensors
     - LED, Motors
+** History
+   - Developed by BBC
+   - encourage children
+     - to get involved in writing software for computers
+     - rather than being consumers of media
+   - given for free to each grade 7 kid (11-12 years)
+
 ** Front
    [[https://microbit.org/images/microbit-front.png]]
 ** Back
