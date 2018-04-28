@@ -1,4 +1,4 @@
-#+OPTIONS: num:nil toc:1 timestamp:nil date:nil
+#+OPTIONS: num:nil toc:1 timestamp:nil
 #+DATE: <2018-04-27 Fri>
 #+TITLE: BBC micro:bit - einfach und hands-on
 #+AUTHOR: Christian Egli
