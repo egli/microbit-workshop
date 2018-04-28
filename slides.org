@@ -4,7 +4,7 @@
 #+AUTHOR: Christian Egli
 #+EMAIL: christian@egli.cc
 #+LANGUAGE: en
-#+EXPORT_FILE_NAME: doc/index.html
+#+EXPORT_FILE_NAME: docs/index.html
 
 #+REVEAL_ROOT: ./reveal.js-3.6.0
 #+REVEAL_THEME: white
