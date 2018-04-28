@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BBC micro:bit - einfach und hands-on</title>
+<meta name="author" content="(Christian Egli)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js-3.6.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js-3.6.0/css/theme/white.css" id="theme"/>
+
+<link rel="stylesheet" href="./reveal.js-3.6.0/lib/css/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js-3.6.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">BBC micro:bit - einfach und hands-on</h1><h2 class="author">Christian Egli</h2><h2 class="date">2018-04-27</h2>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org4a93c86">Background</a></li>
+<li><a href="#/slide-org597aca4">Landscape</a></li>
+<li><a href="#/slide-org32ca197">micro:bit</a></li>
+<li><a href="#/slide-orge3370eb">Similar efforts</a></li>
+<li><a href="#/slide-orgde461fd">Workshop</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-org4a93c86">
+<h2 id="org4a93c86">Background</h2>
+<div class="outline-text-2" id="text-org4a93c86">
+</div>
+</section>
+<section id="slide-org024635c">
+<h3 id="org024635c">Motivation</h3>
+<ul>
+<li>Better to play in the forest</li>
+<li>Games are here</li>
+<li>Show what is behind them</li>
+
+</ul>
+</section>
+<section id="slide-orgb3b7ae9">
+<h3 id="orgb3b7ae9">Requirements</h3>
+<ul>
+<li>simple</li>
+<li>engaging</li>
+<li>physical</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org597aca4">
+<h2 id="org597aca4">Landscape</h2>
+<div class="outline-text-2" id="text-org597aca4">
+</div>
+</section>
+<section id="slide-orgbef243b">
+<h3 id="orgbef243b">Scratch</h3>
+
+<div class="figure">
+<p><img src="./images/scratch.png" alt="scratch.png" />
+</p>
+</div>
+</section>
+<section id="slide-orgbaa381d">
+<h4 id="orgbaa381d">Scratch</h4>
+<ul>
+<li><a href="http://scratch.mit.edu">http://scratch.mit.edu</a></li>
+<li>Lego-like programming</li>
+<li>designed for education</li>
+<li>Teaching resources</li>
+
+</ul>
+</section>
+<section id="slide-orgc3943a6">
+<h4 id="orgc3943a6">Verdict</h4>
+<ul>
+<li>Perfect for making simple games</li>
+<li>No interaction with the real world</li>
+
+</ul>
+
+</section>
+<section id="slide-org6028a22">
+<h3 id="org6028a22">Arduino</h3>
+
+<div class="figure">
+<p><img src="./images/arduino-2713093_1920.jpg" alt="arduino-2713093_1920.jpg" />
+</p>
+</div>
+</section>
+<section id="slide-orgcebeae7">
+<h4 id="orgcebeae7">Arduino</h4>
+<ul>
+<li><a href="https://www.arduino.cc/">https://www.arduino.cc/</a></li>
+<li>open-source electronics platform</li>
+<li>aimed at students
+<ul>
+<li>with no background in electronics and programming</li>
+
+</ul></li>
+<li>fairly simple
+<ul>
+<li>for simple things</li>
+
+</ul></li>
+<li>program in C++</li>
+
+</ul>
+</section>
+<section id="slide-org4cbee5d">
+<h4 id="org4cbee5d">Arduino Coding</h4>
+<div class="org-src-container">
+
+<pre><code class="CC" >// Pin 13 has an LED connected on most Arduino boards.
+int led = 13;
+
+// the setup routine runs once when you press reset:
+void setup() {
+  // initialize the digital pin as an output.
+  pinMode(led, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  digitalWrite(led, HIGH);   // turn the LED on
+  delay(1000);               // wait for a second
+  digitalWrite(led, LOW);    // turn the LED off
+  delay(1000);               // wait for a second
+}
+</code></pre>
+</div>
+</section>
+<section id="slide-orgf8299d2">
+<h4 id="orgf8299d2">Verdict</h4>
+<ul>
+<li>Plenty of physical interaction</li>
+<li>too advanced</li>
+
+</ul>
+
+</section>
+<section id="slide-org1315ef5">
+<h3 id="org1315ef5">A combination?</h3>
+<ul>
+<li>Ease of programming</li>
+<li>Physical real world interaction</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org32ca197">
+<h2 id="org32ca197">micro:bit</h2>
+<ul>
+<li>Programming very similar to Scratch</li>
+<li>Interact with the world
+<ul>
+<li>Sensors</li>
+<li>LED, Motors</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgd942cff">
+<h3 id="orgd942cff">History</h3>
+<ul>
+<li>Developed by BBC</li>
+<li>encourage children
+<ul>
+<li>to get involved in writing software for computers</li>
+<li>rather than being consumers of media</li>
+
+</ul></li>
+<li>given for free to each grade 7 kid (11-12 years)</li>
+
+</ul>
+
+</section>
+<section id="slide-orgca4942c">
+<h3 id="orgca4942c">Front</h3>
+
+<div class="figure">
+<p><img src="https://microbit.org/images/microbit-front.png" alt="microbit-front.png" />
+</p>
+</div>
+</section>
+<section id="slide-org232daa2">
+<h3 id="org232daa2">Back</h3>
+
+<div class="figure">
+<p><img src="https://microbit.org/images/microbit-back.png" alt="microbit-back.png" />
+</p>
+</div>
+
+</section>
+<section id="slide-org38aeea4">
+<h3 id="org38aeea4">Interact with the world</h3>
+<ul>
+<li>LEDs</li>
+<li>Buttons</li>
+<li>Sensors
+<ul>
+<li>Light</li>
+<li>Temperature</li>
+<li>Motion (accelerometer and compass)</li>
+
+</ul></li>
+<li>Wireless Communication
+<ul>
+<li>via Radio and Bluetooth</li>
+
+</ul></li>
+<li>Physical connection pins</li>
+<li>USB interface</li>
+
+</ul>
+
+</section>
+<section id="slide-org74e0494">
+<h3 id="org74e0494">Coding</h3>
+
+<div class="figure">
+<p><img src="./images/microbit-makecode.png" alt="microbit-makecode.png" />
+</p>
+</div>
+</section>
+<section id="slide-orgf5120e4">
+<h3 id="orgf5120e4">Coding</h3>
+<ul>
+<li><a href="https://makecode.microbit.org/">In-Browser Editor</a></li>
+<li>Simulator</li>
+<li>Download</li>
+
+</ul>
+</section>
+<section id="slide-org057222c">
+<h3 id="org057222c">Resources</h3>
+<ul>
+<li><a href="https://makecode.microbit.org/lessons">Lesson plans</a></li>
+<li><a href="https://makecode.microbit.org/projects">Projects</a></li>
+<li><a href="http://microbit.org/guide/quick/">Quick Start Guide</a></li>
+
+</ul>
+</section>
+<section id="slide-org9ebbf9d">
+<h3 id="org9ebbf9d">Where to get it</h3>
+<ul>
+<li><a href="http://microbit.org/resellers/">http://microbit.org/resellers/</a>
+<ul>
+<li><a href="https://educatec.ch">https://educatec.ch</a></li>
+<li><a href="https://www.bischoff-ag.ch">https://www.bischoff-ag.ch</a></li>
+
+</ul></li>
+<li><a href="https://www.maker-shop.ch">https://www.maker-shop.ch</a></li>
+<li><a href="https://www.digitec.ch">https://www.digitec.ch</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orge3370eb">
+<h2 id="orge3370eb">Similar efforts</h2>
+<div class="outline-text-2" id="text-orge3370eb">
+</div>
+</section>
+<section id="slide-org2660ef6">
+<h3 id="org2660ef6"><a href="https://calliope.cc/">Calliope</a></h3>
+
+<div class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Calliope_mini_weiss_JoernAlraun.jpg/512px-Calliope_mini_weiss_JoernAlraun.jpg" alt="512px-Calliope_mini_weiss_JoernAlraun.jpg" />
+</p>
+</div>
+</section>
+<section id="slide-orgecbdbc5">
+<h4 id="orgecbdbc5"><a href="https://calliope.cc/">Calliope</a></h4>
+<ul>
+<li>German version of the micro:bit</li>
+<li>aimed at schools</li>
+<li>not as well known</li>
+
+</ul>
+</section>
+<section id="slide-org3d05f2c">
+<h4 id="org3d05f2c">Calliope vs micro:bit</h4>
+<ul>
+<li>Calliope has more Accentuators
+<ul>
+<li>Speakers</li>
+<li>Motors without an extra board</li>
+
+</ul></li>
+<li>In German</li>
+<li>fewer resources (?)</li>
+<li>50.- vs 20.-</li>
+
+</ul>
+</section>
+<section id="slide-orgd78e2ae">
+<h3 id="orgd78e2ae"><a href="https://chibitronics.com/">Chibitronics</a></h3>
+
+<div class="figure">
+<p><img src="https://farm6.staticflickr.com/5321/13932630538_45a043e0c8_z.jpg" alt="13932630538_45a043e0c8_z.jpg" />
+</p>
+</div>
+</section>
+<section id="slide-org4173787">
+<h4 id="org4173787"><a href="https://chibitronics.com/">Chibitronics</a></h4>
+<ul>
+<li>programming with arts and crafts</li>
+<li>tools for paper circuits</li>
+
+</ul>
+</section>
+<section id="slide-orgbdc4462">
+<h3 id="orgbdc4462"><a href="https://www.dexterindustries.com/gopigo3/">GoPiGo</a></h3>
+
+<div class="figure">
+<p><img src="https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/GPG3_Full_1.jpg" alt="GPG3_Full_1.jpg" width="500" />
+</p>
+</div>
+</section>
+<section id="slide-org0be4a69">
+<h4 id="org0be4a69"><a href="https://www.dexterindustries.com/gopigo3/">GoPiGo</a></h4>
+<ul>
+<li>Robotics kit from <a href="https://www.dexterindustries.com/">Dexter Industries</a></li>
+<li>Based on <a href="https://blockly-games.appspot.com/">Blockly</a> (Scratch-like)</li>
+<li><a href="https://www.sparkfun.com/products/14216">SparkFun micro:bot kit</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgde461fd">
+<h2 id="orgde461fd">Workshop</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">ITEM</th>
+<th scope="col" class="org-right">Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Workshop</td>
+<td class="org-right">2:35</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;Hello World</td>
+<td class="org-right">0:15</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;Rock Paper Scissors</td>
+<td class="org-right">0:30</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;Stop watch</td>
+<td class="org-right">0:30</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;Avalanche transceiver</td>
+<td class="org-right">0:30</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;Banana keyboard</td>
+<td class="org-right">0:20</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;Fireflies</td>
+<td class="org-right">0:30</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+<section id="slide-org7450466">
+<h3 id="org7450466">Hello World</h3>
+<ul>
+<li>Warm-up exercise
+<ul>
+<li>use editor</li>
+<li>download</li>
+
+</ul></li>
+<li>15 mins</li>
+<li><a href="http://microbit.org/guide/quick/">http://microbit.org/guide/quick/</a></li>
+<li><a href="http://microbit.org/ideas/">http://microbit.org/ideas/</a></li>
+
+</ul>
+</section>
+<section id="slide-org0ee9e0e">
+<h3 id="org0ee9e0e">Rock Paper Scissors</h3>
+<ul>
+<li>Basic game
+<ul>
+<li>variable, random, if then else</li>
+
+</ul></li>
+<li>30 mins</li>
+<li><a href="http://microbit.org/en/2017-03-07-rock-paper-scissors/">http://microbit.org/en/2017-03-07-rock-paper-scissors/</a></li>
+<li><a href="https://makecode.microbit.org/projects/rock-paper-scissors">https://makecode.microbit.org/projects/rock-paper-scissors</a></li>
+
+</ul>
+</section>
+<section id="slide-orgeae4713">
+<h3 id="orgeae4713">Stop watch</h3>
+<ul>
+<li>Basic stop watch with random animations
+<ul>
+<li>variable, random, if then else, time, strings</li>
+
+</ul></li>
+<li>30 mins</li>
+<li><a href="https://makecode.microbit.org/examples/stop-watch">https://makecode.microbit.org/examples/stop-watch</a></li>
+
+</ul>
+</section>
+<section id="slide-orgbcd6392">
+<h3 id="orgbcd6392">Avalanche transceiver</h3>
+<ul>
+<li>Communicate between micro:bits
+<ul>
+<li>radio transmission</li>
+<li>work in teams</li>
+
+</ul></li>
+<li>30 mins</li>
+<li><a href="https://makecode.microbit.org/projects/hot-or-cold">https://makecode.microbit.org/projects/hot-or-cold</a></li>
+
+</ul>
+</section>
+<section id="slide-org8be8ead">
+<h3 id="org8be8ead">Banana keyboard</h3>
+<ul>
+<li>Basic input and sound
+<ul>
+<li>read input pins, generate sound</li>
+
+</ul></li>
+<li>Material
+<ul>
+<li>cables, crocodile clips, fruit, speaker</li>
+
+</ul></li>
+<li>20 mins</li>
+<li><a href="https://makecode.microbit.org/projects/banana-keyboard">https://makecode.microbit.org/projects/banana-keyboard</a></li>
+
+</ul>
+</section>
+<section id="slide-orgb61a7cd">
+<h3 id="orgb61a7cd">Fireflies</h3>
+<ul>
+<li>Communicate between micro:bits
+<ul>
+<li>swarm behavior</li>
+<li>advanced concept</li>
+
+</ul></li>
+<li>30 mins</li>
+<li><a href="https://makecode.microbit.org/projects/fireflies">https://makecode.microbit.org/projects/fireflies</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js-3.6.0/lib/js/head.min.js"></script>
+<script src="./reveal.js-3.6.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'slide', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js-3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
+});
+</script>
+</body>
+</html>

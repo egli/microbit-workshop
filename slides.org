@@ -4,8 +4,9 @@
 #+AUTHOR: Christian Egli
 #+EMAIL: christian@egli.cc
 #+LANGUAGE: en
+#+EXPORT_FILE_NAME: doc/index.html
 
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: ./reveal.js-3.6.0
 #+REVEAL_THEME: white
 #+REVEAL_TRANS: slide
 #+REVEAL_PLUGINS: (highlight)
