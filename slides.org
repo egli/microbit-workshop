@@ -228,3 +228,9 @@
 
 Except where otherwise noted, this work is licensed under [[http://creativecommons.org/licenses/by-sa/4.0/][Creative
 Commons Attribution-ShareAlike 4.0 International License]]
+
+** Source
+
+The source of this presentation is available at
+https://github.com/egli/microbit-workshop
+
