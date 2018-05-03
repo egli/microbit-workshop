@@ -3,6 +3,10 @@
 This repo contains material for the [[http://microbit.org/][micro:bit]] workshop that was given
 at the [[https://openeducationday.ch/][Open Education Day 2018]]
 
+* Slides
+
+The slides are available as a [[https://egli.github.io/microbit-workshop/][presentation]] and in [[https://github.com/egli/microbit-workshop/blob/master/slides.org][source form]]. 
+
 * Building
 
 The slides are created using [[http://orgmode.org/][org-mode]] and converted to [[https://revealjs.com/][reveal.js]] using
