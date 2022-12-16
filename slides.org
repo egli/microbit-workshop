@@ -6,7 +6,7 @@
 #+LANGUAGE: en
 #+EXPORT_FILE_NAME: docs/index.html
 
-#+REVEAL_ROOT: ./reveal.js-3.6.0
+#+REVEAL_ROOT: ./reveal.js-4.4.0
 #+REVEAL_THEME: white
 #+REVEAL_TRANS: slide
 #+REVEAL_PLUGINS: (highlight)
